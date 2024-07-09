@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-angular-notifications/styles/message/material.css';
+@import '../node_modules/@syncfusion/ej2-angular-buttons/styles/button/material.css';
+.e-message {
+    width: 300px;
+}
+
+.container {
+    margin: 20px;  
+}
+
+.inputDiv {
+    margin-top: -19px;
+    margin-left: 108px;
+    margin-bottom: 20px;
+}

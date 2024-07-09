@@ -1,0 +1,13 @@
+<div class="container">
+  <label>Enter your age:</label>
+  <div class="inputDiv">
+    <input (input)="inputChange($event)"/>
+  </div>
+  <ejs-message #messageElement [content]="content" [visible]="false" variant="Outlined"
+  severity="Warning" cssClass="e-content-center" [showIcon]="false">
+  <ng-template #content>
+    <p>Enter a valid age between 18 and 60</p>
+    <button ejs-button content="Dismiss" (click)="dismissClick()"></button>
+  </ng-template>
+  </ejs-message>
+</div>
